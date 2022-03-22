@@ -9,7 +9,7 @@ function App() {
         <Route path='/' exact={true}>
           <Dashboard></Dashboard>
         </Route>
-        <Route path='login'>
+        <Route path='/login'>
           <Login></Login>
         </Route>
         <Route path='*'>
