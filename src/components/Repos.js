@@ -37,8 +37,6 @@ const Repos = () => {
     })
     .splice(0, 5);
 
-  // stars and forks
-  console.log(repos);
   let { stars, forks } = repos.reduce(
     (total, item) => {
       const { stargazers_count, name, forks } = item;
