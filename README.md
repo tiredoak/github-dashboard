@@ -1,31 +1,77 @@
-# Project Description
+<div id="top"></div>
 
-This is a simple dashboard to search for a GitHub user and get some main stats about them. These can be viewed in tables, scorecards and different charts (using FusionCharts).
+<br />
+<div align="center">
 
-The starter project included the HTML/CSS.
+<h3 align="center">GitHub Dashboard</h3>
 
-# Main features
+  <p align="center">
+    GiHub dashboard built with React
+  </p>
+</div>
 
-## React
+## About The Project
 
-### React Router DOM 6
+<img src="github-users.gif" alt="drawing" width="500"/>
 
-### Hooks
+A GitHub dashboard built with React. It shows a user's main stats as scorecards and different charts using FusionCharts. To pull data, it uses the GitHub API which does not require authentication but does cap the requests based on IP addresses (this is what the requests indicator next to the search bar shows).
 
-### Context
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## GitHub API
+### Built With
 
-## Authentication
+- [React.js](https://reactjs.org/)
+- [FusionCharts](https://www.fusioncharts.com/)
 
-asd
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Fusion Charts
+### Installation
 
-## Styling
+1. Clone the repo
+   ```sh
+   git clone https://github.com/tiredoak/github-dashboard.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start the project with
 
-### Styled components
+   ```sh
+   npm start
+   ```
 
-# How to run locally
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-#
+## Contact
+
+Miguel Carvalho - miguelc@tuta.io
+
+Project Link: [https://github.com/tiredoak/github-dashboard](https://github.com/tiredoak/github-dashboard)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+- [README template](https://github.com/othneildrew/Best-README-Template)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/tiredoak/github-dashboard.svg?style=for-the-badge
+[contributors-url]: https://github.com/tiredoak/github-dashboard/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/tiredoak/github-dashboard.svg?style=for-the-badge
+[forks-url]: https://github.com/tiredoak/github-dashboard/network/members
+[stars-shield]: https://img.shields.io/github/stars/tiredoak/github-dashboard.svg?style=for-the-badge
+[stars-url]: https://github.com/tiredoak/github-dashboard/stargazers
+[issues-shield]: https://img.shields.io/github/issues/tiredoak/github-dashboard.svg?style=for-the-badge
+[issues-url]: https://github.com/tiredoak/github-dashboard/issues
+[license-shield]: https://img.shields.io/github/license/tiredoak/github-dashboard.svg?style=for-the-badge
+[license-url]: https://github.com/tiredoak/github-dashboard/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: images/screenshot.png
