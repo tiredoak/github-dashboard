@@ -12,7 +12,9 @@
 
 ## About The Project
 
+<div align="center">
 <img src="github-users.gif" alt="drawing" width="500"/>
+</div>
 
 A GitHub dashboard built with React. It shows a user's main stats as scorecards and different charts using FusionCharts. To pull data, it uses the GitHub API which does not require authentication but does cap the requests based on IP addresses (this is what the requests indicator next to the search bar shows).
 
